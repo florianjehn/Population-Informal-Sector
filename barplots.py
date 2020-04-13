@@ -36,3 +36,5 @@ fig.tight_layout()
 
 plt.savefig("informal.png", dpi=200, bbox_inches="tight")
 plt.close()
+
+infor.to_excel("informal population.xls")
